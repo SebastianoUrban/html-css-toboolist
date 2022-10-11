@@ -23,8 +23,8 @@ header{
 
 button.button-color{
     height: 1.8rem;
-    background-color: dodgerblue;
-    border-color: dodgerblue;
+    background-color: #45abea;
+    border-color: #45abea;
     border-radius: 0.5rem;
     color: white;
 }
@@ -49,16 +49,16 @@ div.central-part{
 span.cross{
     padding: 0 0.2rem;
     color: red;
-    border: 2px solid red;
-    font-size: 1rem;
+    border: 1px solid red;
+    font-size: 0.9rem;
     border-radius: 100%;
 }
 
 span.check{
     padding: 0 0.2rem;
     color: green;
-    border: 2px solid green;
-    font-size: 1rem;
+    border: 1px solid green;
+    font-size: 0.9rem;
     border-radius: 100%;
 }
 
@@ -68,8 +68,8 @@ main div{
 }
 
 main{
-    background-color: lightgrey;
-    height: 1000px;
+    background-color: #f6f8f9;
+    height: 100%;
     padding: 4rem 15%;
 }
 
@@ -90,4 +90,36 @@ h2{
 
 h2 span{
     font-size: 1rem;
+}
+
+span.tag{
+    padding: 0.3rem 0.5rem;
+    font-size: 0.7rem;
+    background-color: gray;
+    border-radius: 0.6rem;
+    color: white;
+}
+
+span.editorial{
+    background-color: #45abea;
+}
+
+span.qigoals{
+    background-color: #9c72e4;
+}
+
+span.recruiting{
+    background-color: #64c0a9;
+}
+
+span.website{
+    background-color: #d863a1;
+}
+
+span.sales{
+    background-color: #b0c926;
+}
+
+span.mobile{
+    background-color: #f29e33;
 }
