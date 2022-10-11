@@ -16,10 +16,25 @@ header h1{
     margin: 0;
 }
 
-header.main-header{
+header{
     padding: 0.5rem 1rem;
+}
+
+div.options-panel{
+    padding: 0.8rem 2rem;
+    margin-bottom: 2px;
+}
+
+div.central-part{
+    padding: 1.5rem 2rem;
+}
+
+main div{
+    background-color: white;
 }
 
 main{
     background-color: lightgrey;
+    height: 1000px;
+    padding: 4rem 15%;
 }
