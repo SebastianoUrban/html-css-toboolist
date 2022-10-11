@@ -1,6 +1,7 @@
 
 *{
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .main-logo{
@@ -20,6 +21,22 @@ header{
     padding: 0.5rem 1rem;
 }
 
+button.button-color{
+    height: 1.8rem;
+    background-color: dodgerblue;
+    border-color: dodgerblue;
+    border-radius: 0.5rem;
+    color: white;
+}
+
+button.button-uncolor{
+    height: 1.8rem;
+    background-color: white;
+    border-color: lightgrey;
+    border-radius: 0.5rem;
+    color: gray;
+}
+
 div.options-panel{
     padding: 0.8rem 2rem;
     margin-bottom: 2px;
@@ -37,4 +54,8 @@ main{
     background-color: lightgrey;
     height: 1000px;
     padding: 4rem 15%;
+}
+
+li{ 
+    font-size: 1.2rem;
 }
